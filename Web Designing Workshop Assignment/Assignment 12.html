@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table with Headers, Caption and Footer</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        caption{
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        tfoot{
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
-    
+        <table>
+        <caption>Student Marks</caption>
+
+        <thead>
+            <tr>
+                <th>Roll</th>
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+
 </body>
 </html>
